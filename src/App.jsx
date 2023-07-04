@@ -6,7 +6,7 @@ function App() {
   
 
   return (
-    <>
+    <BrowserRouter>
       <div>
         
         <Routes>
@@ -15,7 +15,7 @@ function App() {
         </Routes>
       </div>
       
-    </>
+    </BrowserRouter>
   )
 }
 
