@@ -12,6 +12,7 @@ function App() {
         <Routes>
           <Route index element={<Home />}></Route>
           <Route path="/channel" element={<Channel />}></Route>
+          {/* <Route path="/drawer" element={<MiniDrawer />}></Route> */}
         </Routes>
       </div>
       
