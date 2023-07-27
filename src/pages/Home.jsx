@@ -6,9 +6,9 @@ import Tag from "../components/Tag"
 const Home = () => {
   return (
     <div> 
-        <Navbar />
+        {/* <Navbar /> */}
         <Sidebar />
-        <Tag />
+        {/* <Tag /> */}
     </div>
   )
 }
