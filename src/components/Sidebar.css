@@ -2,6 +2,7 @@
     filter: brightness(1.5);
     filter:drop-shadow(0 0 0.70rem crimson);
     transition: all 0.2s ease;
+    cursor: pointer;
 }
 
 .icon {
@@ -40,6 +41,7 @@
     padding: 15px 10px;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
     transition: all 0.4s ease;
+    cursor: pointer;
 }
 .contract{
     z-index: -1;
@@ -55,6 +57,7 @@
     border-radius: 12px;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
     transition: all 0.4s ease;
+    cursor: pointer;
 }
 
 .menu_container_contract {
@@ -67,6 +70,7 @@
     width: 70px;
     height: 100%;
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .menu_container-expand {
@@ -79,6 +83,7 @@
     width: calc(270px - 30px);
     height: calc(100% - 60px);
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 /* .menu_container::-webkit-scrollbar {
@@ -117,6 +122,7 @@
     margin-bottom: 10px;
     width: 10px;
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 .menu_item:hover {
     transition: 0.3s ease;
@@ -137,6 +143,7 @@
     width: 40px;
     height: 40px;
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 .menu_item_contract:hover {
     display: flex;
