@@ -73,9 +73,9 @@ body {
 
 .menu_title {
   position: relative;
-  margin-left: 2cm;
+  margin-left: 0cm;
   height: 50px;
-  width: 275px;
+  width: 200px;
 }
 .menu_title_contract{
   position: relative;
@@ -83,10 +83,10 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-left: -5px;
-  height: 60px;
-  width: 60px;
-  margin-top: 10px;
+  margin-left: -2px;
+  height: 40px;
+  width: 50px;
+  margin-top: 0px;
 }
 
 .title {
@@ -212,4 +212,9 @@ body {
   #sidebar-open {
     display: block;
   }
+
+  /* .menu_title_contract{
+    width: 40;
+    height: 40p;
+  } */
 }

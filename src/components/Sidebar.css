@@ -10,7 +10,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 10px;
+    margin: 5px;
     width: 30px;
     height: 30px;
     padding: 2px;
@@ -104,7 +104,7 @@
     align-items: center;
     justify-content: start;
     margin-top: 2rem;
-    gap: 20px;
+    gap: 2rem;
     width: 65px;
     height: 100%;
     transition: all 0.3s ease;
@@ -134,12 +134,13 @@
 .menu_item_contract{
     display: flex;
     flex-direction: column;
+    padding-top: 1rem;
     align-items: center;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: 0rem;
     border-style:hidden;
     border-radius: 12px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     width: 40px;
     height: 40px;
     transition: all 0.3s ease;
@@ -155,4 +156,60 @@
     width: 55px;
     height: 45px;
 }
+
+@media (max-width: 450px) {
+    .menu_container-expand {
+        display: flex;
+
+    }
+    .menu_container_contract {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 8vh;
+    }
+
+    .menu_items_contract {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 0px;
+        width: 100%;
+        height: 8vh;
+    }
+    .contract {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 8vh;
+        bottom: 0;
+    }
+    .expand {
+        position: sticky;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100;
+        height: 8vh;
+    }
+
+    .menu_title_contract{
+        width: 40px;
+        height: 40px;
+        margin-top: 0px;
+    }
+
+    .menu_item_contract:hover {
+        background: linear-gradient(to bottom right, rgb(246, 104, 104), white );
+    }
+}
+    
+
 
