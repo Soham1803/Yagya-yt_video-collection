@@ -4,10 +4,6 @@ import { AiOutlineSearch } from "react-icons/ai";
 import './_Header.scss'; // Uncomment this line to import the SCSS file
 import PropTypes from 'prop-types';
 
-Navbar.propTypes = {  // Component prop validation.
-  expand: PropTypes.bool,
-  setExpand: PropTypes.func,
-};
 
 const Navbar = ({expand, setExpand}) => {
   return (
@@ -43,6 +39,11 @@ const Navbar = ({expand, setExpand}) => {
       </div>
     </div>
   );
+};
+
+Navbar.propTypes = {  // Component prop validation.
+  expand: PropTypes.bool,
+  setExpand: PropTypes.func,
 };
 
 export default Navbar;
