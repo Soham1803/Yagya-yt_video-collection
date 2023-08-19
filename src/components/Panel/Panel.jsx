@@ -1,5 +1,5 @@
 import React from 'react'
-import expand from './Sidebar.jsx'
+import expand from './Sidebar/Sidebar.jsx'
 
 const Panel = () => {
   return (
