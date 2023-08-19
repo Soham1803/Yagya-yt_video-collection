@@ -1,6 +1,7 @@
 // import React from 'react'
 import {useState} from 'react'
 import './_categoryBar.scss'
+import PropTypes from 'prop-types';
 
 const Keywords= [
     "All",
@@ -25,7 +26,7 @@ const Keywords= [
 ]
 
 
-const CategoryBar = () => {
+const CategoryBar = ({expand}) => {
 
     const [activeElement,setActiveElement] = useState('All')
 
@@ -35,7 +36,7 @@ const CategoryBar = () => {
     }
 
     return (
-      <div className="CategoryBar">
+      <div className={expand?"CategoryBar":"CategoryBar-expand"}>
         {
         Keywords.map((value,i) =>
         <span 
@@ -45,6 +46,10 @@ const CategoryBar = () => {
         )}
       </div>
     )
-  }
+}
+
+CategoryBar.propTypes={
+    expand: PropTypes.bool,
+}
   
   export default CategoryBar

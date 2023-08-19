@@ -16,7 +16,7 @@ const Home = () => {
     <div> 
         <Navbar expand={expand} setExpand={setExpand} />
         <Sidebar expand={expand} setExpand={setExpand} />
-        <CategoryBar/>
+        <CategoryBar expand={expand} />
         {/* <Tag /> */}
     </div>
   )
