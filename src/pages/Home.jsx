@@ -6,6 +6,7 @@ import CategoryBar from "../components/Category/CategoryBar";
 
 import '../styles.css';
 import '../components/Sidebar/Sidebar.css'
+import Panel from '../components/Panel/Panel';
 
 const Home = () => {
 
@@ -17,7 +18,8 @@ const Home = () => {
         <Navbar expand={expand} setExpand={setExpand} />
         <Sidebar expand={expand} setExpand={setExpand} />
         <CategoryBar expand={expand} />
-        {/* <Tag /> */}
+        <Panel expand={expand} />
+        
     </div>
   )
 }

@@ -1,4 +1,91 @@
 .panel-body{
     position:fixed;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    gap: 10px;
+
+    top: calc(65px + 53px);
+    left: 85px;
+    right: 5px;
+    bottom: 5px;
+    width: calc(100vw - 90px);
+    height: calc(100vh - 65px - 58px);
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    filter:drop-shadow(0 0 0.20rem rgba(0, 0, 0, 0.228));
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    transition: all 0.4s ease;
+
     
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgba(0, 0, 0, 0.532);
+    border-radius: 12px;
+    padding: 1px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.432);
+    border-radius: 12px;
+    width: 5px;
+}
+
+.panel-body-contract{
+    position:fixed;
+    top: calc(65px + 53px);
+    left: 275px;
+    right: 5px;
+    bottom: 5px;
+    width: calc(100vw - 280px);
+    height: calc(100vh - 65px - 58px);
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    gap: 10px;
+    
+
+    background-color: rgb(244, 234, 116);
+    border-radius: 12px;
+    filter:drop-shadow(0 0 0.20rem rgba(0, 0, 0, 0.228));
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    transition: all 0.4s ease;
+    
+}
+
+.videocard-body{
+    position: relative;
+    height: 300px;
+    width: 100%;
+    margin: 5px 5px 5px 5px;
+    background-color: rgb(224, 30, 30);
+    border-radius: 8px;
+
+}
+
+.video-thumnail{
+    position: absolute;
+    bottom: 25%;
+    left: 0;
+    height: 75%;
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    background-color: rgba(0, 0, 0, 0.532);
+}
+.video-info{
+    font-size: .5rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 25%;
+    width: 100%;
+    border-radius: 8px;
+    background-color: rgba(121, 6, 6, 0.532);
+    padding: .5rem;
 }

@@ -35,13 +35,15 @@
     position: fixed;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: calc(100vh - 70px);
     width: 270px;
     background: #fff;
     padding: 15px 10px;
+    border-radius: 8px;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
     transition: all 0.4s ease;
     cursor: pointer;
+    filter:drop-shadow(0 0 0.20rem rgba(0, 0, 0, 0.352));
 }
 .contract{
     position: fixed;
@@ -53,12 +55,13 @@
     margin-top: 67px;
     margin-left: 0px;
     width: 80px;
-    height: 100vh;
+    height: calc(100vh - 70px);
     background: #fff;
     border-radius: 12px;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
     transition: all 0.4s ease;
     cursor: pointer;
+    filter:drop-shadow(0 0 0.20rem rgba(0, 0, 0, 0.352));
 }
 
 .menu_container_contract {
